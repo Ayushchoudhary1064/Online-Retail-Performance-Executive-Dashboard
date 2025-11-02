@@ -82,7 +82,7 @@ The report utilizes a transnational dataset containing all transactions from a U
 
 The report is divided into three pages to address four key business questions:
 
-### Page 1: Revenue Trends & Top Markets (Screenshots: image_42ff1f.png, image_41a14d.png)
+### Page 1: Revenue Trends & Top Markets
 
 This page provides an executive overview of overall business health.
 
@@ -91,7 +91,7 @@ This page provides an executive overview of overall business health.
 | **Q1: 2011 Monthly Revenue Trend** | **Line Chart** | **Configuration:** X-axis is `Month`, Y-axis is `Sum of Revenue`. Filtered to show only 2011 data. **Insight:** Revenue shows clear, rapid growth throughout the year, peaking sharply in November and December. |
 | **Q2: Top 10 Revenue-Generating Countries** | **Clustered Bar Chart** | **Configuration:** Top N filter applied to `Country` based on `Sum of Revenue`. **Insight:** The Netherlands is the top revenue generator outside the UK, highlighting a key international focus area. |
 
-### Page 2: High-Value Customers (Screenshot: image_4301ce.png)
+### Page 2: High-Value Customers 
 
 This page focuses on customer relationship management.
 
@@ -99,7 +99,7 @@ This page focuses on customer relationship management.
 | :--- | :--- | :--- |
 | **Q3: Top 10 Revenue-Generating Customers** | **Clustered Bar Chart** | **Configuration:** Top N filter applied to `CustomerID` based on `Sum of Revenue`. `CustomerID` is set to 'Don't Summarize'. **Insight:** Identifies the top 10 individual Customer IDs, allowing the sales team to focus on high-value client retention and loyalty programs. (e.g., Customer ID 12415 is a top contributor). |
 
-### Page 3: Demand by Region (Screenshot: image_4301ee.jpg)
+### Page 3: Demand by Region 
 
 This map visual addresses strategic expansion and product demand.
 
