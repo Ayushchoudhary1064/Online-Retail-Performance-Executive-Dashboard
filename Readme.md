@@ -32,8 +32,8 @@ This page provides an executive overview of overall business health.
 | **Q2: Top 10 Revenue-Generating Countries** | **Clustered Bar Chart** | **Configuration:** Top N filter applied to `Country` based on `Sum of Revenue`. **Insight:** The Netherlands is the top revenue generator outside the UK, highlighting a key international focus area. |
 
 #### 📷 Dashboard Preview:
-![Revenue and Top Markets](online-retail_page-0001.jpg)
-![Revenue and Top Markets 2](online-retail_page-0002.jpg)
+![Revenue and Top Markets and Top 10 Revenue-Generating Countries(Excluding UK)](online-retail_page-0001.jpg)
+
 
 ---
 
@@ -45,7 +45,7 @@ This page focuses on customer relationship management.
 | **Q3: Top 10 Revenue-Generating Customers** | **Clustered Bar Chart** | **Configuration:** Top N filter applied to `CustomerID` based on `Sum of Revenue`. `CustomerID` is set to 'Don't Summarize'. **Insight:** Identifies the top 10 individual Customer IDs, allowing the sales team to focus on high-value client retention and loyalty programs. (e.g., Customer ID 12415 is a top contributor). |
 
 #### 📷 Dashboard Preview:
-![High Value Customers](online-retail_page-0003.jpg)
+![High Value Customers](online-retail_page-0002.jpg)
 
 ---
 
@@ -57,7 +57,7 @@ This map visual addresses strategic expansion and product demand.
 | **Q4: Product Demand by Region** | **Map Visual** | **Configuration:** `Country` in **Location**, `Sum of Quantity` in **Bubble Size**. Filtered to **exclude** 'United Kingdom'. **Insight:** Visually identifies geographical areas with high product volume/demand (large bubbles) outside of the main UK market, indicating potential expansion sites. |
 
 #### 📷 Dashboard Preview:
-![Demand by Region](a6df4395-af65-4778-b4d0-bcc1bda22dec.png)
+![Demand by Region(Excluding UK)](online-retail_page-0003.jpg)
 
 ---
 
